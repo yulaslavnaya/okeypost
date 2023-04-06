@@ -1,0 +1,36 @@
+.container {
+	background: #ffffff;
+	box-shadow: 0px 0px 70px rgba(138, 138, 138, 0.1);
+	border-radius: 16px;
+	width: 75%;
+	margin: 0 auto 20px;
+	padding: 40px 30px 53px 46px;
+}
+
+.container input {
+	height: 60px;
+	width: 100%;
+	border: 0px transparent solid;
+	border-bottom: 1px #222222 solid;
+	outline: none;
+	font-size: 16px;
+	color: #222222;
+	font-family: 'Gilroy-Light', sans-serif;
+}
+
+.container p {
+	font-size: 14px;
+	color: #222222;
+	font-family: 'Gilroy-Bold', sans-serif;
+}
+
+.search_icon {
+	z-index: 1;
+	float: right;
+	width: 28px;
+	height: 28px;
+	fill: #01cd7d;
+	position: relative;
+	margin-bottom: -100px;
+	cursor: pointer;
+}

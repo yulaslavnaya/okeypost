@@ -1,0 +1,68 @@
+.nav_menu {
+	text-align: center;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.login_btn {
+	margin-left: 100px;
+	margin-right: 40px;
+	cursor: pointer;
+	display: inline-flex;
+	justify-content: center; /* center the content horizontally */
+	align-items: center; /* center the content vertically */
+	font-size: 15px;
+	line-height: 16px;
+	color: #1f2428;
+	font-family: 'Gilroy-Bold', sans-serif;
+	border: none;
+	background-color: transparent;
+}
+
+.login_icon {
+	width: 28px;
+	height: 28px;
+	fill: black;
+}
+
+.call_btn {
+	cursor: pointer;
+	background: linear-gradient(90deg, #00c97b 0%, #00d981 96.96%);
+	box-shadow: 0px 4px 4px rgba(1, 203, 124, 0.2);
+	border-radius: 36px;
+	border: transparent 0px solid;
+	width: 170px;
+	height: 48px;
+	font-family: 'Gilroy-Bold', sans-serif;
+	font-size: 13px;
+	line-height: 18px;
+	color: white;
+}
+
+.call_btn:hover {
+	background: linear-gradient(90deg, #01ba72 0%, #00c977 96.96%);
+}
+
+.active div {
+	color: #5b52a3;
+}
+
+nav {
+	width: 80%;
+	margin: 0 auto;
+	margin-top: 36px;
+}
+
+nav a {
+	text-decoration: none;
+	font-size: 15px;
+	line-height: 16px;
+	color: #1f2428;
+	font-family: 'Gilroy-Bold', sans-serif;
+	margin: 10px 20px;
+}
+
+nav a :hover {
+	color: #5b52a3;
+}

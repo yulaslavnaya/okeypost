@@ -1,0 +1,20 @@
+.main {
+	cursor: pointer;
+	background: linear-gradient(90deg, #00c97b 0%, #00d981 96.96%);
+	box-shadow: 0px 4px 4px rgba(1, 203, 124, 0.2);
+	border-radius: 36px;
+	border: transparent 0px solid;
+	width: 240px;
+	height: 66px;
+	font-family: 'Gilroy-Bold', sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 17px;
+	line-height: 18px;
+	color: white;
+	margin-top: 30px;
+}
+
+.main:hover {
+	background: linear-gradient(90deg, #01ba72 0%, #00c977 96.96%);
+}
